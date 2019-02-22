@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <header>
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </header>
+
+    <body>
+        <div class="headerBg">
+                <h1 class="header1">Lori Orzechowski</h1>
+        
+                <div class="globalLinks">
+                    <div class="about">
+                        <a href="#" target="blank" alt="about">About</a>
+                    </div>
+                    <div class="portfolio">
+                        <a href="#" target="blank" alt="portfolio">Portfolio</a>
+                    </div>
+                    <div class="contact">
+                        <a href="#" target="blank" alt="contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <h2 class="header2">Contact</h2>
+
+        <div class="contactForm">
+            <form name="form" action="/action_page.php">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="John Smith">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="example@gmail.com">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+                
+                <input type="submit" onclick="myFunction()" value="Submit">
+            </form>
+        </div>
+
+        <script>
+            function myFunction() {
+                document.getElementById("form").submit().innerHTML = "Thank You";
+            }
+        </script>
+    </body>
+
+    <footer class="footer">
+            Copyright &copy
+    </footer>
+</html>

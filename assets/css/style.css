@@ -1,0 +1,99 @@
+.header1 {
+    background-color: #4aaaa5;
+    color: #ffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    float: left;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px;
+    color: #4aaaa5;
+}
+
+.header2{
+    margin-top: 200px;
+}
+
+.headerBg {
+    background-position-x: 0;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    background-color: #ffff;
+    margin-bottom: 20px;
+    border-bottom-color: #dddddd;
+    border-bottom: 2px solid #dddddd;
+    height: 150px;
+}
+  
+a {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.globalLinks {
+    padding: 100px;
+}
+
+.about {
+
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+    width: 100%;
+    background-image: url(../images/circles-light/circles-light/circles-light.png);
+    border-color: #4aaaa5;
+    border-width: 20px;
+}
+
+section {
+    float: left;
+    background-color: #666;
+    padding: 50px;
+    width: 33%;
+}
+
+#left {
+    padding: 25px;
+}
+
+#middle {
+    background-color: #888;
+    padding: 25px;
+}
+
+#right {
+    padding: 25px;
+}
+
+#full {
+    background-color: #eee;
+    float: left;
+}
+
+#division {
+    background-color: #6ea3da;
+}
+
+aside {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #ccc;
+    font-size: x-small;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
