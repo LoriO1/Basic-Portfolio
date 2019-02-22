@@ -57,6 +57,7 @@ a {
 .contentBody {
     background: #ffffff;
     width: 960px;
+    padding: 40px;
     float: left;
 }
 
