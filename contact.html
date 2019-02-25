@@ -8,37 +8,48 @@
 
     <body>
         <div class="headerBg">
-                <h1 class="header1">Lori Orzechowski</h1>
-        
-                <div class="globalLinks">
-                    <div class="about">
-                        <a href="#" target="blank" alt="about">About</a>
-                    </div>
-                    <div class="portfolio">
-                        <a href="#" target="blank" alt="portfolio">Portfolio</a>
-                    </div>
-                    <div class="contact">
-                        <a href="#" target="blank" alt="contact">Contact</a>
-                    </div>
-                </div>
-            </div>
+            <section id="left">
+                <h1>Lori Orzechowski</h1>
+            </section>
+                        
+            <section id="right">
+                <a href="index.html" id="about" target="blank" alt="about">About</a>
+                
+                <p class="portfolio">
+                    <a href="portfolio.html" id="portfolio" target="blank" alt="portfolio">Portfolio</a>
+                </p>
+                <p class="contact">
+                    <a href="contact.html" id="contact" target="blank" alt="contact">Contact</a>
+                </p>
+            </section>
         </div>
     
-        <h2 class="header2">Contact</h2>
+        <div class="contentBody">
+            <section class="title">
+                <h2>Contact</h2>
+            </section>
 
-        <div class="contactForm">
-            <form name="form" action="/action_page.php">
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="John Smith">
-
-                <label for="email">Email</label>
-                <input type="text" id="email" placeholder="example@gmail.com">
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
-                
-                <input type="submit" onclick="myFunction()" value="Submit">
-            </form>
+            <div class="contactForm">
+                <form name="form" action="/action_page.php">
+                    <p>
+                        <label for="name">Name</label>
+                        <br>
+                        <input type="text" id="name" placeholder="John Smith">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="text" id="email" placeholder="example@gmail.com" >
+                    </p>
+                    <p>
+                        <label for="message">Message</label>
+                        <br>
+                        <textarea id="message" name="message" placeholder=""></textarea>
+                        <br>
+                        <input type="button" id="button" onclick="myFunction()" value="Submit">
+                    </p>
+                </form>
+            </div>
         </div>
 
         <script>
@@ -48,7 +59,9 @@
         </script>
     </body>
 
-    <footer class="footer">
+    <div class="clearfix">
+        <footer class="footer">
             Copyright &copy
-    </footer>
+        </footer>
+    </div>
 </html>
